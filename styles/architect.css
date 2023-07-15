@@ -7,7 +7,13 @@ font-family: 'Work Sans', sans-serif;
 }
 /*heeder style*/
 .btn-primary{
-    
+  border-radius: 8px;  
+  background: #FF900E;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  color: aliceblue;
+  border: 0px;
+
 }
 
 header{
@@ -46,4 +52,31 @@ nav li{
 .banner-tittle{
     font-size: 4rem;
     font-weight: 700;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*media quary*/
+
+@media screen and (max-width: 576px) {
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+/*midium*/
+
+@media screen and(min-width:576px) and (max-width:960px) {
+    header{
+        padding:40px;
+    }
+    nav{
+       flex-direction: column; 
+    }
+    
 }

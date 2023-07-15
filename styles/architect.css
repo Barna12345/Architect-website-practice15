@@ -90,6 +90,27 @@ main{
     color: gray;
 }
 
+/*third part*/
+.facts-card-conteiner{
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+}
+
+.facts-card-conteiner .card{
+    border-radius: 8px;
+    border: 2px solid rgb(201, 146, 43);
+    padding: 40px 30px;
+}
+.facts-card-conteiner .card-start{
+    font-size: 2.2rem;
+}
+
+
+
+
+
+
 
 /*media quary*/
 
@@ -98,19 +119,30 @@ main{
         padding:20px;
     }
     nav,
-    .team-conteiner{
+    .team-conteiner, 
+    .facts-card-conteiner{
         flex-direction: column;
     }
     .teams-img{
         grid-template-columns: 1fr;
     }
-    .team-content{
+    .team-content, .facts-card-conteiner{
         padding-left: 20px;
         padding-right: 20px;
     }
 
     
 }
+.card-tittle{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
 /*midium*/
 
 @media screen and(min-width:576px) and (max-width:960px) {
